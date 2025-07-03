@@ -2,9 +2,9 @@
 
 ### Security Log: Authentication 
 
-4624 - `Successful Logon`:	Detect suspicious RDP/network logins and identify the attack starting point	Logged on the target machine, the one you are trying to access	Noisy. You will see hundreds of logon events per minute on loaded servers
+4624 - `User Successful Logon`:	Detect suspicious RDP/network logins and identify the attack starting point	Logged on the target machine, the one you are trying to access	Noisy. You will see hundreds of logon events per minute on loaded servers
 
-4625 - `Failed Logon`:	Detect brute force, password spraying, or vulnerability scanning	Logged on the target machine, the one you are trying to access	Inconsistent. The logs have lots of caveats that may trick you into the wrong understanding of the event
+4625 - `User Failed Logon`:	Detect brute force, password spraying, or vulnerability scanning	Logged on the target machine, the one you are trying to access	Inconsistent. The logs have lots of caveats that may trick you into the wrong understanding of the event
 
 ### Security Log: User Management 
 
